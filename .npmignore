@@ -1,0 +1,19 @@
+# Version control
+.git/
+.gitignore
+.gitattributes
+
+# Go build artifacts
+*.exe
+*.test
+*.out
+vendor/
+
+# Development / CI
+.github/
+.vscode/
+*.log
+
+# OS artifacts
+.DS_Store
+Thumbs.db

@@ -1,0 +1,43 @@
+{
+  "name": "@obinexusltd/go-polycall",
+  "version": "1.0.0",
+  "description": "Professional Go Language Binding for LibPolyCall v1trial",
+  "homepage": "https://github.com/obinexus/go-polycall#readme",
+  "bugs": {
+    "url": "https://github.com/obinexus/go-polycall/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/obinexus/go-polycall.git"
+  },
+  "license": "ISC",
+  "author": "Nnamdi Michael Okpala",
+  "type": "commonjs",
+  "main": "index.js",
+  "files": [
+    "index.js",
+    "pkg/",
+    "config/",
+    "examples/",
+    "go.mod",
+    "go.sum",
+    "README.md"
+  ],
+  "directories": {
+    "example": "examples",
+    "lib": "pkg"
+  },
+  "keywords": [
+    "polycall",
+    "libpolycall",
+    "go",
+    "golang",
+    "binding",
+    "obinexus",
+    "protocol",
+    "ipc"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
